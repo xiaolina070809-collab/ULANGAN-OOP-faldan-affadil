@@ -1,0 +1,42 @@
+Struktur Aplikasi KlinikFaldan Paket 3
+=====================================
+
+klinikpaket3faldan/
+│
+├── index.php                 # Router utama
+├── koneksi.php               # Koneksi database
+├── composer.json             # Konfigurasi autoload
+│
+├── database/
+│   └── strukturdb.sql        # Struktur database
+│
+├── src/
+│   ├── Models/
+│   │   ├── Pasien.php
+│   │   └── Kunjungan.php
+│   └── Controllers/
+│       ├── PasienController.php
+│       └── KunjunganController.php
+│
+├── views/
+│   ├── Pasien/
+│   │   ├── index.php
+│   │   ├── create.php
+│   │   ├── edit.php
+│   │   └── show.php
+│   └── Kunjungan/
+│       ├── index.php
+│       ├── create.php
+│       ├── edit.php
+│       └── show.php
+│
+├── assets/
+│   └── images/
+│       └── pasien/           # Upload foto pasien
+│
+├── tools/
+│   ├── PedomanUjianPraktik - Paket3.docx
+│   └── strukturapk.txt
+│
+└── vendor/
+    └── autoload.php
